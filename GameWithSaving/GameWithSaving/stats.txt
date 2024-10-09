@@ -4,16 +4,16 @@ N=None
 A=0
 D=0
 PD=N
+LVL=1
 
 [ATTR]
 S=0
 D=0
 A=0
 L=0
+W=0
 C=0
 T=0
-W=0
-LVL=
 
 [TEMP]
 MULT=1

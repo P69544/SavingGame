@@ -8,6 +8,6 @@ save = open(STATS,"r")
 for line in save:
   if line[:3] == "NEW":
     print("CREATING SAVE..")
-    createSave.createCharacter()
-    createSave.selectAttributes()
+    a = createSave.createCharacter()
+    createSave.selectAttributes(a)
     break

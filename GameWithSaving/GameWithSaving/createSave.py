@@ -130,8 +130,9 @@ def selectAttributes(age):
     if skillPoints == 0:
        selecting = False
   
+  # ----- Assign values to the data list ----- #
   print(strength, dex, ag, luck, wis)
-  for each in range(count+1, count+7):
+  for each in range(count+1, count+6):
     if data[each][:2] == "S=":
         data[each] = ("S="+str(strength)+"\n")
     elif data[each][:2] == "D=":
